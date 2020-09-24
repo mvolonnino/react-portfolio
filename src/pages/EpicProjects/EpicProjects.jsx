@@ -5,6 +5,7 @@ import EmployeeCardProject from "../../components/Card-Employee";
 import BudgetCardProject from "../../components/Card-Budget";
 import FitnessCardProject from "../../components/Card-Fitness";
 import PokemonCardProject from "../../components/Card-Pokemon";
+import TeamProfileCardProject from "../../components/Card-Team-Generator";
 // herocardproject images
 import novaSearch from "./heroImg/nova-search.png";
 import novaFight from "./heroImg/nova-fight.png";
@@ -23,6 +24,10 @@ import dashboard from "./fitnessImg/dashboard.png";
 import pokeSearch from "./pokemonImg/poke-search.png";
 import pokedex from "./pokemonImg/pokedex.png";
 import errorSearch from "./pokemonImg/error-search.png";
+// teamprofilecardproject images
+import teamGenerator from "./profileGenImg/team-generator.png";
+import htmlGen from "./profileGenImg/html-gen.png";
+import htmlFile from "./profileGenImg/html-file.png";
 
 function EpicProjects() {
   return (
@@ -37,6 +42,7 @@ function EpicProjects() {
       </div>
       <div className="row mt-5">
         <PokemonCardProject img={[pokeSearch, pokedex, errorSearch]} />
+        <TeamProfileCardProject img={[teamGenerator, htmlGen, htmlFile]} />
       </div>
       <br></br>
     </div>

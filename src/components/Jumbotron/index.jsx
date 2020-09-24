@@ -31,9 +31,9 @@ function Jumbotron() {
               In the long, grueling 3 months of the Full-Stack Coding BootCamp, I have completed many projects and
               applications. I have gained real-life experience in having to create my own full-stack applications from the
               ground up while hitting my due dates and learning new technologies. For the projects, we would normally have
-              about 4 days to brainstorm, code, and complete by presentation day, which was always tough but rewarding as
-              well. I was the project manager for 2 projects, including the Pokemon Search and SuperHero Universe
-              applications, leading a team of 4 and 3 people respectively.
+              about 4 days to brainstorm, code, and complete, with the 5th day being presentation day. I was the project
+              manager for 2 projects, including the Pokemon Search and SuperHero Universe applications, leading a team of 4
+              and 3 people respectively. Check out the Epic Projects tab above to see some of my projects.
             </p>
             <p>Below are links to my GitHub repository and LinkedIn channel.</p>
             <MDBBtn

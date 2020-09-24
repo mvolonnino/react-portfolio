@@ -13,7 +13,7 @@ function App() {
       <div className="App bg-image">
         <MyNavbar />
         <Switch>
-          <Route exact path="/">
+          <Route exact path={["/", "/react-portfolio"]}>
             <Profile />
           </Route>
           <Route exact path={"/about"}>
