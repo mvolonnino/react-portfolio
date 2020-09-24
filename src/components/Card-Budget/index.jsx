@@ -18,7 +18,7 @@ const BudgetCardProject = (props) => {
           <MDBCardText>
             This project allows the user to keep track of their finances. It uses a mongoAtlas database connected through
             Heroku. It also offers offline functionality by utlizing the IndexedDB in Application Storage.{" "}
-            <em>Languages Used: JavaScript, NodeJS, Express, MongoDB, HTML, CSS</em>
+            <em>Languages Used: JavaScript, Express, MongoDB, HTML, CSS</em>
           </MDBCardText>
           <a
             href="https://github.com/mvolonnino/budget_tracker"

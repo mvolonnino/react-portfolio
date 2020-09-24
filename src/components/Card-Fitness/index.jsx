@@ -18,7 +18,7 @@ const FitnessCardProject = (props) => {
           <MDBCardText>
             This project allows the user to keep track of their workouts throughout the day and stores them in a MongoDB
             database. It has a dashboard page that will show the user how long they worked out for and pounds lifted
-            throughout the week. <em>Languages Used: JavaScript, NodeJS, Express, MongoDB, HTML, CSS</em>
+            throughout the week. <em>Languages Used: JavaScript, Express, MongoDB, HTML, CSS</em>
           </MDBCardText>
           <a
             href="https://github.com/mvolonnino/fitness_tracker"

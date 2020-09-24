@@ -19,7 +19,7 @@ const HeroCardProject = (props) => {
           <MDBCardText>
             This project utilizes the Superhero API to have access to over 700 comic book characts.Search through them and
             add them to your collection and battle villains to save the universe!{" "}
-            <em>Languages Used: JavaScript, NodeJS, Express, MySQL, HTML, CSS</em>
+            <em>Languages Used: JavaScript, Express, MySQL, HTML, CSS</em>
           </MDBCardText>
           <a
             href="https://github.com/mvolonnino/superhero_team"
