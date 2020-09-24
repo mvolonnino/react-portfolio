@@ -6,6 +6,7 @@ import MyNavbar from "./components/Nav";
 import Profile from "./pages/Profile/Profile";
 import AboutMe from "./pages/AboutMe";
 import EpicProjects from "./pages/EpicProjects/EpicProjects";
+import ContactMe from "./pages/Contact";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route exact path={"/react-portfolio/projects"}>
             <EpicProjects />
+          </Route>
+          <Route exact path={"/react-portfolio/contact"}>
+            <ContactMe />
           </Route>
         </Switch>
       </div>

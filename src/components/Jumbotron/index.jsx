@@ -38,18 +38,13 @@ function Jumbotron() {
             <p>Below are links to my GitHub repository and LinkedIn channel.</p>
             <MDBBtn
               href="https://www.linkedin.com/in/matthew-volonnino-30076a1b1/"
-              // target="_blank"
+              target="_blank"
               social="li"
               gradient="mean-fruit"
             >
               <MDBIcon fab icon="linkedin-in" className="pr-1" /> Linkedin
             </MDBBtn>
-            <MDBBtn
-              href="http://github.com/mvolonnino"
-              // target="_blank"
-              social="git"
-              gradient="peach"
-            >
+            <MDBBtn href="http://github.com/mvolonnino" target="_blank" social="git" gradient="peach">
               <MDBIcon fab icon="github" className="pr-1" /> Github
             </MDBBtn>
           </div>
