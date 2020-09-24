@@ -68,7 +68,14 @@ const ContactForm = () => {
               />
               <div className="text-center mt-4">
                 <MDBBtn
-                  color="warning"
+                  disabled={
+                    !(
+                      form.FormContactMessage &&
+                      form.FormContactSubject &&
+                      form.FormContactName
+                    )
+                  }
+                  color="indigo"
                   outline
                   type="submit"
                   href={`mailto:mvolonnino12@gmail.com?subject=${form.FormContactSubject}&body=${form.FormContactMessage}
