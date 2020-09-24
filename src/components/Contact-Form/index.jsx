@@ -19,6 +19,7 @@ const ContactForm = () => {
     });
   }
   console.log({ form });
+
   return (
     <MDBRow>
       <MDBCol md="12">
@@ -26,14 +27,15 @@ const ContactForm = () => {
           <MDBCardBody>
             <form>
               <p className="h4 text-center mb-4">Write to Me</p>
-              <label htmlFor="FormContactName" className="grey-text">
-                Your name
+              <label htmlFor="FormContactName" className="darkgrey-text">
+                <MDBIcon className="grey-text" icon="user"></MDBIcon>
               </label>
               <input
                 onChange={handleInputChange}
                 type="text"
                 id="FormContactName"
                 className="form-control"
+                placeholder="Your Name (required)"
               />
               <br />
               {/* <label htmlFor="FormContactEmail" className="grey-text">
@@ -47,17 +49,18 @@ const ContactForm = () => {
               />
               <br /> */}
               <label htmlFor="FormContactSubject" className="grey-text">
-                Subject
+                <MDBIcon className="grey-text" icon="tag"></MDBIcon>
               </label>
               <input
                 onChange={handleInputChange}
                 type="text"
                 id="FormContactSubject"
                 className="form-control"
+                placeholder="Subject (required)"
               />
               <br />
               <label htmlFor="FormContactMessage" className="grey-text">
-                Your message
+                <MDBIcon className="grey-text" icon="pencil-alt"></MDBIcon>
               </label>
               <textarea
                 onChange={handleInputChange}
@@ -65,6 +68,7 @@ const ContactForm = () => {
                 id="FormContactMessage"
                 className="form-control"
                 rows="3"
+                placeholder="Your Message (required)"
               />
               <div className="text-center mt-4">
                 <MDBBtn
