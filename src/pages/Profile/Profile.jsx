@@ -27,7 +27,7 @@ function Profile() {
               <MDBCardText className="text-muted">
                 JavaScript, ReactJS, HTML, CSS, NodeJS, Express, MongoDB, MySQL
               </MDBCardText>
-              <MDBBtn href="/about" gradient="purple" rounded>
+              <MDBBtn href="/react-portfolio/about" gradient="purple" rounded>
                 ABOUT ME
               </MDBBtn>
             </MDBCardBody>
