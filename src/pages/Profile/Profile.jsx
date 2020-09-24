@@ -9,6 +9,7 @@ import {
   MDBCardBody,
   MDBCardTitle,
   MDBCardText,
+  MDBLink,
 } from "mdbreact";
 
 // import fullStack from "./img/full-stack.png";
@@ -27,9 +28,11 @@ function Profile() {
               <MDBCardText className="text-muted">
                 JavaScript, ReactJS, HTML, CSS, NodeJS, Express, MongoDB, MySQL
               </MDBCardText>
-              <MDBBtn href="/react-portfolio/about" gradient="purple" rounded>
-                ABOUT ME
-              </MDBBtn>
+              <MDBLink to="/react-portfolio/about">
+                <MDBBtn gradient="purple" rounded>
+                  ABOUT ME
+                </MDBBtn>
+              </MDBLink>
             </MDBCardBody>
           </MDBJumbotron>
         </MDBCol>
