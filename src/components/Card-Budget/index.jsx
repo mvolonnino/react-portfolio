@@ -1,8 +1,6 @@
 import React from "react";
 import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCol, MDBIcon, MDBCardImage } from "mdbreact";
 
-import MyCarousel from "../Carousel";
-
 const BudgetCardProject = (props) => {
   // console.log("(BudgetCardProject) props", props);
   return (
@@ -22,7 +20,7 @@ const BudgetCardProject = (props) => {
           </MDBCardText>
           <a
             href="https://github.com/mvolonnino/budget_tracker"
-            target="_blank"
+            // target="_blank"
             rel="noopener noreferrer"
             className="icons-sm li-ic ml-1"
           >
@@ -30,7 +28,7 @@ const BudgetCardProject = (props) => {
           </a>
           <a
             href="https://bdgt-trcker.herokuapp.com/"
-            target="_blank"
+            // target="_blank"
             rel="noopener noreferrer"
             className="icons-sm li-ic ml-2"
           >

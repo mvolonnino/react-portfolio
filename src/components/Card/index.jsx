@@ -23,7 +23,7 @@ const HeroCardProject = (props) => {
           </MDBCardText>
           <a
             href="https://github.com/mvolonnino/superhero_team"
-            target="_blank"
+            // target="_blank"
             rel="noopener noreferrer"
             className="icons-sm li-ic ml-1"
           >
@@ -31,7 +31,7 @@ const HeroCardProject = (props) => {
           </a>
           <a
             href="https://superhero-team.herokuapp.com/"
-            target="_blank"
+            // target="_blank"
             rel="noopener noreferrer"
             className="icons-sm li-ic ml-2"
           >

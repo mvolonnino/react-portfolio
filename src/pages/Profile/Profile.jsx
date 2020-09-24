@@ -11,7 +11,7 @@ import {
   MDBCardText,
 } from "mdbreact";
 
-import fullStack from "./img/full-stack.png";
+// import fullStack from "./img/full-stack.png";
 import fullStackPurple from "./img/full-stack-purple.png";
 
 function Profile() {

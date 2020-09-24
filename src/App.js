@@ -16,7 +16,7 @@ function App() {
           <Route exact path="/">
             <Profile />
           </Route>
-          <Route exact path={["/about"]}>
+          <Route exact path={"/about"}>
             <AboutMe />
           </Route>
           <Route exact path={"/projects"}>
