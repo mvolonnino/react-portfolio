@@ -7,3 +7,15 @@
   margin: 0 15px;
 }
 
+.main-nav-active {
+  color: red;
+}
+.about-nav-active {
+  color: red;
+}
+.projects-nav-active {
+  color: red;
+}
+.contact-nav-active {
+  color: red;
+}
