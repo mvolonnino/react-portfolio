@@ -1,0 +1,16 @@
+.redline {
+  border: 0.5px solid red;
+  opacity: 50%;
+}
+
+.blueline {
+  border: 0.5px solid blue;
+  opacity: 50%;
+}
+
+.customImg {
+  height: auto;
+  width: auto;
+  max-width: 400px;
+  max-height: 400px;
+}

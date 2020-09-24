@@ -1,0 +1,8 @@
+/* ----Navbar---- */
+.pipe {
+  color: gray;
+  display: flex;
+  align-items: center;
+  opacity: 30%;
+  margin: 0 15px;
+}
