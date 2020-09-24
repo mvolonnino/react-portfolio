@@ -8,7 +8,7 @@ const HeroCardProject = (props) => {
   // console.log("(HeroCardProject) props", props);
   return (
     <MDBCol className="col-md-6">
-      <MDBCard reverse>
+      <MDBCard reverse className="h-100">
         <MyCarousel img={props.img} />
         <MDBCardBody cascade className="text-center">
           <hr className="redline"></hr>

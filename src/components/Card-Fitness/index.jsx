@@ -3,25 +3,25 @@ import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCol, MDBIcon, MDBCa
 
 import MyCarousel from "../Carousel";
 
-const BudgetCardProject = (props) => {
+const FitnessCardProject = (props) => {
   // console.log("(BudgetCardProject) props", props);
   return (
     <MDBCol className="col-md-6">
       <MDBCard reverse className="h-100">
-        <MDBCardImage className="img-fluid rounded h-auto w-100 img-thumbnail mt-1" src={props.img[0]} waves />
+        <MyCarousel img={props.img} />
         <MDBCardBody cascade className="text-center">
-          <hr className="blueline"></hr>
-          <MDBCardTitle>Budget Tracker</MDBCardTitle>
-          <h5 className="indigo-text">
-            <strong>Keep Track of your Expenses</strong>
+          <hr className="redline"></hr>
+          <MDBCardTitle>Fitness Tracker</MDBCardTitle>
+          <h5 className="red-text">
+            <strong>Record Your Workouts</strong>
           </h5>
           <MDBCardText>
-            This project allows the user to keep track of their finances. It uses a mongoAtlas database connected through
-            Heroku. It also offers offline functionality by utlizing the IndexedDB in Application Storage.{" "}
-            <em>Languages Used: JavaScript, NodeJS, Express, MongoDB, HTML, CSS</em>
+            This project allows the user to keep track of their workouts throughout the day and stores them in a MongoDB
+            database. It has a dashboard page that will show the user how long they worked out for and pounds lifted
+            throughout the week. <em>Languages Used: JavaScript, NodeJS, Express, MongoDB, HTML, CSS</em>
           </MDBCardText>
           <a
-            href="https://github.com/mvolonnino/budget_tracker"
+            href="https://github.com/mvolonnino/fitness_tracker"
             target="_blank"
             rel="noopener noreferrer"
             className="icons-sm li-ic ml-1"
@@ -29,7 +29,7 @@ const BudgetCardProject = (props) => {
             <MDBIcon fab icon="github" />
           </a>
           <a
-            href="https://bdgt-trcker.herokuapp.com/"
+            href="https://workout-and-record.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="icons-sm li-ic ml-2"
@@ -42,4 +42,4 @@ const BudgetCardProject = (props) => {
   );
 };
 
-export default BudgetCardProject;
+export default FitnessCardProject;

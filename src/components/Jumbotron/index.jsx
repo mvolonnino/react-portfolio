@@ -50,7 +50,6 @@ function Jumbotron() {
           </div>
         </div>
       </div>
-      <hr className="bg-image"></hr>
     </div>
   );
 }

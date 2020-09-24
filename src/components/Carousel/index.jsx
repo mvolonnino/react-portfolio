@@ -14,13 +14,13 @@ function MyCarousel(props) {
     <div className="container justify-content-center">
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
-          <img className="d-block w-100" src={props.img[0]} alt="Superhero Project" />
+          <img className="d-block w-100 h-auto img-thumbnail mt-3" src={props.img[0]} alt="First Slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={props.img[1]} alt="Employee Directory Project" />
+          <img className="d-block w-100 h-auto img-thumbnail mt-3" src={props.img[1]} alt="Second Slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={props.img[2]} alt="Third slide" />
+          <img className="d-block w-100 h-auto img-thumbnail mt-3" src={props.img[2]} alt="Third slide" />
         </Carousel.Item>
       </Carousel>
     </div>
