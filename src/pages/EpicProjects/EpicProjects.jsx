@@ -1,7 +1,7 @@
 import React from "react";
 
-import ProjectPageHeader from "../../components/Project-Card";
-import HeroCardProject from "../../components/Card";
+import CardHeaderProject from "../../components/Card-Header-Project";
+import HeroCardProject from "../../components/Card-Superhero";
 import EmployeeCardProject from "../../components/Card-Employee";
 import BudgetCardProject from "../../components/Card-Budget";
 import FitnessCardProject from "../../components/Card-Fitness";
@@ -33,7 +33,7 @@ import htmlFile from "./profileGenImg/html-file.png";
 function EpicProjects() {
   return (
     <div className="container">
-      <ProjectPageHeader />
+      <CardHeaderProject />
       <div className="row">
         <HeroCardProject img={[novaSearch, novaUniverse, novaFight]} />
         <EmployeeCardProject img={[empDirectory, startDate, searchMatt]} />

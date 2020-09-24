@@ -4,9 +4,9 @@ import "./App.css";
 
 import MyNavbar from "./components/Nav";
 import Profile from "./pages/Profile/Profile";
-import AboutMe from "./pages/AboutMe";
+import AboutMe from "./pages/About/AboutMe";
 import EpicProjects from "./pages/EpicProjects/EpicProjects";
-import ContactMe from "./pages/Contact";
+import ContactMe from "./pages/Contact/ContactMe";
 
 function App() {
   return (
