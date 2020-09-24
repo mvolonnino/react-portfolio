@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MDBNav, MDBNavLink } from "mdbreact";
+import { MDBNav, MDBNavLink, MDBNavItem } from "mdbreact";
 
 import "./style.css";
 
@@ -52,12 +52,14 @@ function MyNavbar() {
       >
         Contact
       </MDBNavLink>
-      <a className="white-text ml-auto pt-2" target="_blank" rel="noopener noreferrer" href="http://github.com/mvolonnino">
-        <i className="fab fa-github white-text mr-2"></i>
-      </a>
-      {/* <a className="white-text ml-auto pt-2" target="_blank" href="http://linkedin.com">
-        <i className="fab fa-linkedin white-text">LinkedIn</i>
-      </a> */}
+      <MDBNavItem className="ml-auto pt-2 mr-2">
+        <a className="white-text ml-auto pt-2" target="_blank" rel="noopener noreferrer" href="http://github.com/mvolonnino">
+          <i className="fab fa-github white-text mr-2"> GitHub</i>
+        </a>
+        <a className="white-text ml-auto pt-2" target="_blank" href="http://linkedin.com">
+          <i className="fab fa-linkedin white-text mr-2"> Linked</i>
+        </a>
+      </MDBNavItem>
     </MDBNav>
   );
 }
