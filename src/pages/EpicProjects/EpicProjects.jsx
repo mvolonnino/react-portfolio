@@ -1,5 +1,6 @@
 import React from "react";
 
+import ProjectPageHeader from "../../components/Project-Card";
 import HeroCardProject from "../../components/Card";
 import EmployeeCardProject from "../../components/Card-Employee";
 import BudgetCardProject from "../../components/Card-Budget";
@@ -32,6 +33,7 @@ import htmlFile from "./profileGenImg/html-file.png";
 function EpicProjects() {
   return (
     <div className="container">
+      <ProjectPageHeader />
       <div className="row">
         <HeroCardProject img={[novaSearch, novaUniverse, novaFight]} />
         <EmployeeCardProject img={[empDirectory, startDate, searchMatt]} />

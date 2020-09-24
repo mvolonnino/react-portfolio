@@ -8,14 +8,23 @@
 }
 
 .main-nav-active {
-  color: red;
+  color: white;
 }
 .about-nav-active {
-  color: red;
+  color: white;
 }
 .projects-nav-active {
-  color: red;
+  color: white;
 }
 .contact-nav-active {
-  color: red;
+  color: white;
+}
+
+.fab {
+  text-decoration: underline;
+}
+
+.fab:hover,
+.icon:hover {
+  color: blue !important;
 }

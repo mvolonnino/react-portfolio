@@ -17,18 +17,18 @@ import fullStackPurple from "./img/full-stack-purple.png";
 
 function Profile() {
   return (
-    <MDBContainer className="mt-5 text-center">
+    <MDBContainer className="mt-3 text-center">
       <MDBRow>
         <MDBCol>
           <MDBJumbotron className="p-0">
             <MDBCardImage className="img-fluid" src={fullStackPurple} />
             <MDBCardBody>
-              <MDBCardTitle className="h3">Matt Volonnino</MDBCardTitle>
+              <MDBCardTitle className="h2">Matt Volonnino</MDBCardTitle>
               <MDBCardText>Full Stack Web Developer</MDBCardText>
               <MDBCardText className="text-muted">
                 JavaScript, ReactJS, HTML, CSS, NodeJS, Express, MongoDB, MySQL
               </MDBCardText>
-              <MDBLink to="/react-portfolio/about">
+              <MDBLink to="/about">
                 <MDBBtn gradient="purple" rounded>
                   ABOUT ME
                 </MDBBtn>

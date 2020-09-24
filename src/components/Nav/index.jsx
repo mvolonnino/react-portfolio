@@ -1,26 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import { MDBNav, MDBNavLink, MDBNavItem } from "mdbreact";
 
 import "./style.css";
 
 function MyNavbar() {
-  const [active, setActive] = useState({
-    activeItem: "0",
-  });
-
-  function toggleActive(tab) {
-    if (active.activeItem !== tab) {
-      setActive({
-        activeItem: tab,
-      });
-      console.log("active: ", active);
-      console.log("tab: ", tab);
-    }
-  }
   return (
     <MDBNav className="font-weight-bold py-4 px-2 mb-4 shadow-md bg-image">
       <MDBNavLink
-        className=" rounded main-nav"
+        className="rounded main-nav"
         activeClassName="main-nav-active"
         // onClick={() => toggleActive("1")}
         to="/react-portfolio"
@@ -29,7 +16,7 @@ function MyNavbar() {
       </MDBNavLink>
       <p className="pipe">|</p>
       <MDBNavLink
-        className=" rounded about-nav"
+        className="rounded about-nav "
         activeClassName="about-nav-active"
         // onClick={() => toggleActive("2")}
         to="/about"
@@ -38,7 +25,7 @@ function MyNavbar() {
       </MDBNavLink>
       <p className="pipe">|</p>
       <MDBNavLink
-        className=" rounded projects-nav"
+        className="rounded projects-nav"
         activeClassName="projects-nav-active"
         // onClick={() => toggleActive("3")}
         to="/projects"
@@ -47,7 +34,7 @@ function MyNavbar() {
       </MDBNavLink>
       <p className="pipe">|</p>
       <MDBNavLink
-        className=" rounded contact-nav"
+        className="rounded contact-nav"
         activeClassName="contact-nav-active"
         // onClick={() => toggleActive("4")}
         to="/contact"
@@ -55,10 +42,10 @@ function MyNavbar() {
         Contact
       </MDBNavLink>
       <MDBNavItem className="ml-auto pt-2 mr-2">
-        <a className=" ml-auto pt-2" target="_blank" rel="noopener noreferrer" href="http://github.com/mvolonnino">
+        <a className="ml-auto pt-2" target="_blank" rel="noopener noreferrer" href="http://github.com/mvolonnino">
           <i className="fab fa-github white-text mr-2"> GitHub</i>
         </a>
-        <a className=" ml-auto pt-2" target="_blank" href="http://linkedin.com">
+        <a className="ml-auto pt-2" target="_blank" rel="noopener noreferrer" href="http://linkedin.com">
           <i className="fab fa-linkedin white-text mr-2"> Linked</i>
         </a>
       </MDBNavItem>
