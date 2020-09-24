@@ -16,10 +16,10 @@ function App() {
           <Route exact path={["/", "/react-portfolio"]}>
             <Profile />
           </Route>
-          <Route exact path={"/about"}>
+          <Route exact path={"/react-portfolio/about"}>
             <AboutMe />
           </Route>
-          <Route exact path={"/projects"}>
+          <Route exact path={"/react-portfolio/projects"}>
             <EpicProjects />
           </Route>
         </Switch>

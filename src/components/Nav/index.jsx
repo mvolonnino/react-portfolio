@@ -17,7 +17,12 @@ function MyNavbar() {
   }
   return (
     <MDBNav className="font-weight-bold py-4 px-2 mb-4 shadow-md bg-image">
-      <MDBNavLink className="white-text rounded" active={active.activeItem === ""} onClick={() => toggleActive("1")} to="/">
+      <MDBNavLink
+        className="white-text rounded"
+        active={active.activeItem === ""}
+        onClick={() => toggleActive("1")}
+        to="/react-portfolio"
+      >
         Profile
       </MDBNavLink>
       <p className="pipe">|</p>
@@ -25,7 +30,7 @@ function MyNavbar() {
         className="white-text rounded"
         active={active.activeItem === "2"}
         onClick={() => toggleActive("2")}
-        to="/about"
+        to="/react-portfolio/about"
       >
         About
       </MDBNavLink>
@@ -34,7 +39,7 @@ function MyNavbar() {
         className="white-text rounded"
         active={active.activeItem === "3"}
         onClick={() => toggleActive("3")}
-        to="/projects"
+        to="/react-portfolio/projects"
       >
         Epic Projects
       </MDBNavLink>
@@ -43,7 +48,7 @@ function MyNavbar() {
         className="white-text rounded"
         active={active.activeItem === "4"}
         onClick={() => toggleActive("4")}
-        to="/contact"
+        to="/react-portfolio/contact"
       >
         Contact
       </MDBNavLink>
