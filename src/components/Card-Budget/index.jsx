@@ -20,7 +20,7 @@ const BudgetCardProject = (props) => {
           </MDBCardText>
           <a
             href="https://github.com/mvolonnino/budget_tracker"
-            // target="_blank"
+            target="_blank"
             rel="noopener noreferrer"
             className="icons-sm li-ic ml-1"
           >
@@ -28,7 +28,7 @@ const BudgetCardProject = (props) => {
           </a>
           <a
             href="https://bdgt-trcker.herokuapp.com/"
-            // target="_blank"
+            target="_blank"
             rel="noopener noreferrer"
             className="icons-sm li-ic ml-2"
           >

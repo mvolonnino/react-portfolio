@@ -22,7 +22,7 @@ const FitnessCardProject = (props) => {
           </MDBCardText>
           <a
             href="https://github.com/mvolonnino/fitness_tracker"
-            // target="_blank"
+            target="_blank"
             rel="noopener noreferrer"
             className="icons-sm li-ic ml-1"
           >
@@ -30,7 +30,7 @@ const FitnessCardProject = (props) => {
           </a>
           <a
             href="https://workout-and-record.herokuapp.com/"
-            // target="_blank"
+            target="_blank"
             rel="noopener noreferrer"
             className="icons-sm li-ic ml-2"
           >

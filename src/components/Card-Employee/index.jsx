@@ -23,7 +23,7 @@ const EmployeeCardProject = (props) => {
           </MDBCardText>
           <a
             href="https://github.com/mvolonnino/directory-app"
-            // target="_blank"
+            target="_blank"
             rel="noopener noreferrer"
             className="icons-sm li-ic ml-1"
           >
@@ -31,7 +31,7 @@ const EmployeeCardProject = (props) => {
           </a>
           <a
             href="https://mvolonnino.github.io/directory-app/"
-            // target="_blank"
+            target="_blank"
             rel="noopener noreferrer"
             className="icons-sm li-ic ml-2"
           >

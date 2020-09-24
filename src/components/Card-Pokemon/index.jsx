@@ -22,7 +22,7 @@ const PokemonCardProject = (props) => {
           </MDBCardText>
           <a
             href="https://github.com/mvolonnino/project1"
-            // target="_blank"
+            target="_blank"
             rel="noopener noreferrer"
             className="icons-sm li-ic ml-1"
           >
@@ -30,7 +30,7 @@ const PokemonCardProject = (props) => {
           </a>
           <a
             href="https://mvolonnino.github.io/project1/"
-            // target="_blank"
+            target="_blank"
             rel="noopener noreferrer"
             className="icons-sm li-ic ml-2"
           >

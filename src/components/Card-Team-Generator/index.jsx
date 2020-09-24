@@ -23,7 +23,7 @@ const TeamProfileCardProject = (props) => {
           </MDBCardText>
           <a
             href="https://github.com/mvolonnino/Team_Profile_Generator"
-            // target="_blank"
+            target="_blank"
             rel="noopener noreferrer"
             className="icons-sm li-ic ml-1"
           >
